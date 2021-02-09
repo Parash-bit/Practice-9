@@ -1,0 +1,76 @@
+html{
+    scroll-behavior: smooth;
+}
+img{
+    max-width: 100%;
+}
+.navbar {
+    background: #292b2c;
+    border-bottom: 3px solid #008ed6;
+    opacity: .7;
+}
+
+#home-section{
+    background: url(./Image/home.jpg) center top no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+.background-overlay {
+    background: rgba(0,0,0,0.7);
+    min-height: 700px;
+}
+
+i.fas.fa-check {
+    background: #fff;
+    color: #0D6EFD;
+    padding: 6px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+.card-form {
+    opacity: .8;
+}
+
+.inner-section.text-white {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+/* Explore Section */
+#explore-section{
+    background: #333;
+}
+
+.explore-main-section{
+    background: #F8F9FA;
+}
+.my-icon i {
+    color: #fff !important;
+    background: #333 !important;
+}
+
+/* Create Section */
+#create-section{
+    background: #007BFF;
+}
+
+.create-main-section{
+    background: #333;
+}
+/* Create Section */
+#share-section{
+    background: #007BFF;
+}
+
+/* Footer */
+footer {
+    background: #333;
+}
+.footer-content a {
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
